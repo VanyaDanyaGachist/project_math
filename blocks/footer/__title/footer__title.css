@@ -1,0 +1,8 @@
+.footer__title {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-basis: 711px;
+  margin: 0;
+  padding: 0;
+}

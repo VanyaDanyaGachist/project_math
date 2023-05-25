@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+<body>
+  <div class="root">
+    <section class="menu">
+      <div class="menu__toogle">
+        <img alt="иконка стрелка" class="menu__toogle_image" src="/images/png-transparent-arrow-computer-icons-less-than-sign-arrow.png">
+      </div>
+      <div class="menu__column">
+        <h2 class="menu__heading">Ввод значений</h2>
+        <p class="menu__main-text">
+          Порядок производной указывается штрихами <span class="menu__span">y'''
+          </span> или числом после одного штриха <span class="menu__span">y'5</span>
+          Ввод распознает различные синонимы функций, как <span class="menu__span">asin, arsin, arcsin</span>
+          Список математических функций и констант:</p>
+        <p class="menu__main-text"><span class="menu__span">d(x),dy</span> - дифференциал</p>
+        <p class="menu__main-text"><span class="menu__span">ln(x)</span> — натуральный логарифм</p>
+        <p class="menu__main-text"><span class="menu__span">sin(x)</span> - синус</p>
+        <p class="menu__main-text"><span class="menu__span">cos(x)</span> - косинус</p>
+        <p class="menu__main-text"><span class="menu__span">tg(x)</span> - тангенс</p>
+        <p class="menu__main-text"><span class="menu__span">ctg(x)</span> - котангенс</p>
+        <p class="menu__main-text"><span class="menu__span">arcsin(x)</span> - арксинус</p>
+        <p class="menu__main-text"><span class="menu__span">arccos(x)</span> - арккосинус</p>
+        <p class="menu__main-text"><span class="menu__span">arctg(x)</span> - арктангенс</p>
+        <p class="menu__main-text"><span class="menu__span">arcctg(x)</span> - арккотангенс</p>
+        <p class="menu__main-text"><span class="menu__span">abs(x)</span> - модуль</p>
+        <p class="menu__main-text"><span class="menu__span">sqrt(x)</span> - корень</p>
+        <p class="menu__main-text"><span class="menu__span">exp(x)</span> - экспонента в степени x</p>
+      </div>
+    </section>
+    <header class="header">
+      <h1 class="header__title">Калькулятор дифференциальных уравнений</h1>
+    </header>
+    <main class="content">
+      <section class="math">
+        <form class="form" method="get">
+          <fieldset class="form__input-container">
+            <label for="solv" class="math__title">Введите уравнение</label>
+            <textarea class="form__item" id="solv" name="solv"
+            placeholder="y'' + y' + y = 0" required></textarea>
+            <input type="submit" class="form__button">
+            </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__columns">
+        <h2 class="footer__title">Диффурыч</h2>
+          <nav class="footer__column">
+            <h3 class="footer__socials-title">Соцсети</h3>
+            <ul class="footer__content-socials">
+              <li>
+                <a href="#" class="footer__link">GitHub</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">VK</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Telegram</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="/src/index.js"></script>
+</body>
+</html>

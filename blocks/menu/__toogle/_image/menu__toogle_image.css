@@ -1,0 +1,9 @@
+.menu__toogle_image {
+  width: 12px;
+  height: 20px;
+  margin: auto;
+}
+
+.menu_is-closed .menu__toggle-image {
+  transform: rotate(180deg);
+}
