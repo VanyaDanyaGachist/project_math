@@ -1,0 +1,4 @@
+.form__item-placeholder::placeholder {
+  font-family: inherit;
+  font-size: 25px;
+}
