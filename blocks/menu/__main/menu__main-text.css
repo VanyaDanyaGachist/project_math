@@ -1,5 +1,7 @@
 .menu__main-text {
   font-size: 15px;
-  line-height: 1;
+  line-height: 1.15;
   font-weight: normal;
+  margin: 20px 0 0 0;
+  padding: 0;
 }
